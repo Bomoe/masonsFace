@@ -1,6 +1,6 @@
 <script src="https://unpkg.com/htmx.org@1.9.10"></script>
 <!DOCTYPE html>
-<html className="bg-orange-600">
+<html class="bg-gray-900 text-white">
   <head>
     <link
       href="https://fonts.googleapis.com/css?family=Raleway:400, 600"
@@ -9,27 +9,144 @@
     />
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="public/masonsface.png" type="image/x-icon" rel="icon" />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="output.css" rel="stylesheet" type="text/css" />
     <title>Mason's Face</title>
   </head>
 
-  <header>
-    <div class="header">
-      <a href="index.html">Home</a>
-      <a href="contact.html">Submit New Mason Face</a>
-    </div>
-  </header>
-
-  <main className="bg-orange-600">
-    <div className="bg-orange-600">
-      <div class="row">
-        <div class="column">
-          <div class="card">
-            <img src="public/masonsface.png" alt="Mason's Face" />
-            <div class="container">
-              <h2>Mason's Face</h2>
-              <p class="title">Mason's Face</p>
-              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+  <main>
+    <div class="flex flex-col items-center">
+      <div class="text-center">
+        <img src="public/masonsface.png" alt="Mason's Face" />
+      </div>
+      <div class="flex justify-center">
+        <h1 class="font-bold text-4xl">Welcome To Mason's Face</h1>
+      </div>
+      <div class="grid md:grid-cols-3 gap-4 p-4">
+        <div class="rounded-lg overflow-hidden">
+          <img
+            src="public/callIt.png"
+            alt="Someone Call IT"
+            class="w-full object-contain h-96"
+          />
+          <div class="p-4">
+            <h2 class="text-xl font-bold text-center">"Someone Call IT"</h2>
+            <div class="max-w-96 mx-auto">
+              <p class="text-center">
+                This image is a powerful one, just looking into his eyes you can
+                see the boomer confusion surfacing. Personally, this one is so
+                important because it can help all of us learn to identify when
+                to step in and help our opposites, the boomers. If someone you
+                know or love shows this look, you need to be their IT and help
+                them close that google chrome tab or explain why their unplugged
+                mouse isn't working.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="rounded-lg overflow-hidden">
+          <div class="flex justify-center">
+            <img
+              src="public/partyMason.jpg"
+              alt="Party Mason"
+              class="w-full object-contain h-96"
+            />
+          </div>
+          <div class="p-4">
+            <h2 class="text-center text-xl font-bold">"Party Mason"</h2>
+            <div class="max-w-96 mx-auto">
+              <p class="text-center">
+                Here we can see Mason in his natural environment, having fun.
+                This is really a good example of how our fearless leader is a
+                normal human being like us.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="rounded-lg overflow-hidden">
+          <div class="flex justify-center">
+            <img
+              src="public/iksyd.jpg"
+              alt="I know something you don't"
+              class="w-full object-contain h-96"
+            />
+          </div>
+          <div class="p-4">
+            <h2 class="text-center text-xl font-bold">
+              "I know something you don't"
+            </h2>
+            <div class="max-w-96 mx-auto">
+              <p class="text-center">
+                Now this is an interesting one because when you see this face it
+                means he knows something you don't know which is a scary
+                thought. Like all zoomers, you don't want to admit when a boomer
+                knows something you don't so be prepared to act like you know
+                more about it!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="rounded-lg overflow-hidden">
+          <div class="flex justify-center">
+            <img
+              src="public/happyBoomer.jpg"
+              alt="Happy Boomer"
+              class="w-full object-contain h-96"
+            />
+          </div>
+          <div class="p-4">
+            <h2 class="text-center text-xl font-bold">"Happy Boomer"</h2>
+            <div class="max-w-96 mx-auto">
+              <p class="text-center">
+                This is a great image as it shows a happy boomer, a rare sight
+                to see as they are usually angry about the current market or
+                something a zoomer doesn't bother themselves with. This is a
+                boomer you can hang out with!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="rounded-lg overflow-hidden">
+          <div class="flex justify-center">
+            <img
+              src="public/sleepyBoomer.jpg"
+              alt="Sleepy Boomer"
+              class="w-full object-contain h-96"
+            />
+          </div>
+          <div class="p-4">
+            <h2 class="text-center text-xl font-bold">"Sleepy Boomer"</h2>
+            <div class="max-w-96 mx-auto">
+              <p class="text-center">
+                This is truly the backbone of any Boomer lifestyle, naps. In
+                this instance, the Boomer fought off so many Zoomers they
+                collapsed from exhaustion. One day people will finally
+                understand their great sacrifice, but until then they will
+                probably get meme'd on.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="rounded-lg overflow-hidden">
+          <div class="flex justify-center">
+            <img
+              src="public/whosNext.webp"
+              alt="What will be the next Mason Face?"
+              class="w-full object-contain h-96"
+            />
+          </div>
+          <div class="p-4">
+            <h2 class="text-center text-2xl font-bold pb-2">
+              Submit your own Mason's Face below!
+            </h2>
+            <div class="max-w-96 mx-auto text-center">
+              <p>
+                Email me today with the newest Mason face! Don't forget to
+                attach the image (png format is ideal), along with your proposed
+                title and caption. Share your unique Mason's Face now -
+                <a href="mailto:contact@bomoe.gg" class="text-blue-400"
+                  >contact@bomoe.gg!</a
+                >
+              </p>
             </div>
           </div>
         </div>
