@@ -53,4 +53,4 @@ Here's an example of how to layout an image in the HTML file:
 - Adhere to the size and quality standards as shown in the example.
 
 ## Contact & Support
-For questions or support, reach out at [contact@bomoe.gg](mailto:contact@bomoe.gg).
+For questions or support, reach out at [contact@bomoe.gg](mailto:contact@bomoe.gg) or open an issue.
